@@ -32,8 +32,7 @@
 // document.body.appendChild(x);     //
 
 
-
-   //-------------------------
+//-------------------------
    monElelementP = document.getElementById('evenement');
    //---------
 monElelementP.addEventListener("mouseover",function()
@@ -47,15 +46,15 @@ maDiv.style.backgroundColor = "blue";
 
 
 
+    //Exercice01
 
   //-------------------------
-  monElelementP = document.texte_exercice_un('evenement');
-  //---------
-monElelementP.addEventListener("mouseover",function()
+  monElelementP = document.texte_ex('evenement');
 {
 //-------------------------
-maDiv = document.getElementById('texte_exercice_un');
+maDiv = document.getElementById('texte_ex');
 //----------------------------
-object.addEventListener("click", myScript);
+<button onclick="texte_ex()">C'est un bouton</buttons>
 
+maDiv.style.Color = "blue";
 });
